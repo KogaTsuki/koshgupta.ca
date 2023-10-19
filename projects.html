@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koshlender Gupta</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon_package/apple-touch-icon.png">
+    <link rel="icon" href="./favicon_package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_package/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./build.css" rel="stylesheet">
+    <script defer src="./index.js"></script>
+</head>
+
+<body class="bg-fixed bg-no-repeat bg-cover z-0 min-h-[300vh] md:min-h-[175vh]" style="background-image: url(./images/bg4.svg);">
+    
+    <section class="grid content-center justify-center">
+        <div class="flex absolute right-[1vw] gap-5 mr-10 mt-[4vh]">
+            <a target="_blank" rel="noopener" href="https://github.com/KogaTsuki"><img class="w-12 h-auto" src="./images/GitHub-Mark.png"></a>
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/koshlendergupta"><img class="w-12 h-auto" src="./images/linkedin-64.png"></a>
+        </div>
+        
+        <div class="flex fixed gap-5 ml-5 mt-5 z-10">
+            <button id="menu" class="hover:bg-fixed bg-no-repeat bg-cover text-slate-800 p-2 rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg);"><img src="./images/menu.png" alt="Menu Icon" class="w-10 h-auto"></button>
+
+            <div id="MenuCont" class="hidden flex fixed gap-5 ml-20 bg-no-repeat bg-cover text-slate-800 p-2 rounded-xl shadow-2xl" style="background-image: url(./images/box-img.svg);">
+                <button id="HomeBtn" type="button" class="text-slate-800 p-2 rounded-xl shadow-xl">Home</button>
+
+                <button id="AboutBtn" type="button" class="text-slate-800 p-2 rounded-xl shadow-xl">About</button>
+                
+                <button id="ProjectsBtn" type="button" class="bg-inherit text-slate-800 p-2 rounded-xl shadow-xl" >Projects</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+
+
+    <section class="flex min-w-full justify-center absolute top-[30vh]">
+
+        <div class="px-[4vw] py-[5vh] w-1/3 grid justify-center bg-fixed bg-no-repeat bg-cover text-slate-800  rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <h1 id="Projects" class="text-2xl">Projects</h1>
+        </div>
+
+        
+        <div class="absolute top-[25vh] left-3 md:left-40 p-4 justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <img class="w-20 h-auto" src="./images/openai-logo.png" alt="GPTBot Logo" loading="eager">
+        </div>
+        <div class="absolute top-[25vh]  left-36 md:left-80 p-5 mr-3 md:mr-16 md:max-w-2xl grid content-center justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <p>GPTBot: A discord bot made using OpenAI's chat API, discord.js and JavaScript. The bot when prompted uses the API to fetch an answer for the user's provided prompt, using JavaScript the answer is interpreted and handed off to discord.js functions to display to the user, all running on node.js.</p>
+        </div>
+        
+        
+        <div class="absolute w-30 h-30 top-[90vh] sm:top-[55vh] right-3 md:right-40 p-4 justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <a rel="noopener" href="https://www.koshgupta.ca"><h1 class="text-6xl bg-fixed bg-no-repeat bg-cover bg-clip-text text-transparent" style="background-image: url(./images/bg4.svg);">KG</h1></a>
+        </div>
+        <div class="absolute top-[90vh] sm:top-[55vh] right-36 md:right-80 p-5 ml-3 md:ml-16 md:max-w-2xl grid content-center justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <p>A personal website that I am always working and improving upon. Uses HTML for page elements, Tailwind CSS for styling, and JavaScript to handle small features. This website also happens to be what you are viewing this on!</p>
+        </div>
+
+
+        <div class="absolute w-30 h-30 top-[155vh] sm:top-[85vh] left-3 md:left-40 p-4 justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <a rel="noopener" href="https://www.koshgupta.ca"><img src="./images/icon.png" alt="BetterBookmarks" class="w-20 h-auto"></a>
+        </div>
+        <div class="absolute top-[155vh] sm:top-[85vh] left-36 md:left-80 p-5 mr-3 md:mr-16 md:max-w-2xl grid content-center justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <p>A chrome extension called BetterBookmarks. The extension when clicked on displays a list of user saved urls. You can easily add more urls or add the current focused page to the list. Built using HTML and JavaScript, styled using CSS and Tailwind.</p>
+        </div>
+        
+        <div class="absolute w-30 h-30 top-[220vh] sm:top-[115vh] right-3 md:right-40 p-4 justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <a rel="noopener" href="https://www.koshgupta.ca"><h1 class="text-6xl bg-fixed bg-no-repeat bg-cover bg-clip-text text-transparent" style="background-image: url(./images/bg4.svg);">ST</h1></a>
+        </div>
+        <div class="absolute top-[220vh] sm:top-[115vh] right-36 md:right-80 p-5 ml-3 md:ml-16 md:max-w-2xl grid content-center justify-center bg-fixed bg-no-repeat bg-cover rounded-xl shadow-xl" style="background-image: url(./images/box-img.svg)">
+            <p>A simple tax calculator that uses Python to calculate an estimated income tax owed based on 2022 Canadian tax rates and brackets. The calculation does not include CPP, EI and other deductions.</p>
+        </div>
+        
+
+    </section>
+     
+
+    
+    
+
+</body>
+</html>
