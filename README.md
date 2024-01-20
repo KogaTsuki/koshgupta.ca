@@ -10,4 +10,4 @@ Welcome to my personal website project using Vue.js! This website features an "A
 - **About Me Page**: Get to know me, my background, interests, and skills.
 - **Projects Page**: Explore my portfolio with detailed descriptions of each project.
 - **Responsive Design**: Ensures a great experience on both desktop and mobile devices.
-- **Vue.js Ecosystem**: Utilizes Vue Router for navigation and Vuex for state management (if applicable).
+- **Vue.js Ecosystem**: Utilizes Vue Router for navigation.
