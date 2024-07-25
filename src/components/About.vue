@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen content-center justify-items-center lg:max-w-96">
+    <div class="content-center justify-items-center lg:max-w-96">
         <section class="text-gray-200 mx-5 p-8 box">
             <h1 id="AboutMe" class="text-2xl text-center">About Me</h1>
             <p class="text-center p-5">

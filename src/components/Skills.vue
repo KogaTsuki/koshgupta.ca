@@ -1,6 +1,6 @@
 <template>
     
-        <div class="grid h-screen text-gray-200 mt-[300px] md:mt-[100px]">
+        <div class="grid text-gray-200 mt-[100px]">
             <div class="box py-5 mb-10 px-10">
                 <h1 id="Skills" class="text-2xl text-center">Skills</h1>
             </div>
